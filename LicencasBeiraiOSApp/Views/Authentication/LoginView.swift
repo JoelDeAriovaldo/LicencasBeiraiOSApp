@@ -6,7 +6,6 @@
 //  Copyright © 2024 Joel De Ariovaldo. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class LoginView: UIViewController {
