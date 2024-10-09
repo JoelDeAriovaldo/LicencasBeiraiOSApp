@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588BCC722CB6EB2500E6D703 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC712CB6EB2500E6D703 /* AppDelegate.swift */; };
+		588BCC742CB6EB2500E6D703 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC732CB6EB2500E6D703 /* ViewController.swift */; };
+		588BCC772CB6EB2500E6D703 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588BCC752CB6EB2500E6D703 /* Main.storyboard */; };
+		588BCC792CB6EB2600E6D703 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588BCC782CB6EB2600E6D703 /* Assets.xcassets */; };
+		588BCC7C2CB6EB2600E6D703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588BCC7A2CB6EB2600E6D703 /* LaunchScreen.storyboard */; };
+		588BCC852CB6EBA200E6D703 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC842CB6EBA200E6D703 /* User.swift */; };
+		588BCC872CB6EBC600E6D703 /* License.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC862CB6EBC600E6D703 /* License.swift */; };
+		588BCC8B2CB6EC0A00E6D703 /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC8A2CB6EC0A00E6D703 /* Payment.swift */; };
+		588BCC8F2CB6ECDD00E6D703 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC8E2CB6ECDD00E6D703 /* LoginView.swift */; };
+		588BCC912CB6ED1400E6D703 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC902CB6ED1400E6D703 /* RegisterView.swift */; };
+		588BCC942CB6EDA300E6D703 /* LicenseGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC932CB6EDA300E6D703 /* LicenseGenerationView.swift */; };
+		588BCC962CB6EDEF00E6D703 /* LicenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC952CB6EDEF00E6D703 /* LicenseDetailView.swift */; };
+		588BCC982CB6EE1900E6D703 /* LicenseHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC972CB6EE1900E6D703 /* LicenseHistoryView.swift */; };
+		588BCC9B2CB6EE5200E6D703 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC9A2CB6EE5200E6D703 /* PaymentView.swift */; };
+		588BCC9D2CB6EE7100E6D703 /* PaymentConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC9C2CB6EE7100E6D703 /* PaymentConfirmationView.swift */; };
+		588BCCA02CB6EEAC00E6D703 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCC9F2CB6EEAC00E6D703 /* CustomButton.swift */; };
+		588BCCA22CB6EEE300E6D703 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCA12CB6EEE300E6D703 /* CustomTextField.swift */; };
+		588BCCA52CB6EF2B00E6D703 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCA42CB6EF2B00E6D703 /* AuthenticationController.swift */; };
+		588BCCA72CB6EF4D00E6D703 /* LicenseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCA62CB6EF4D00E6D703 /* LicenseController.swift */; };
+		588BCCA92CB6EF7700E6D703 /* PaymentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCA82CB6EF7700E6D703 /* PaymentController.swift */; };
+		588BCCAC2CB6EFC600E6D703 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCAB2CB6EFC600E6D703 /* NetworkService.swift */; };
+		588BCCAE2CB6EFE900E6D703 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCAD2CB6EFE900E6D703 /* AuthenticationService.swift */; };
+		588BCCB02CB6F00F00E6D703 /* LicenseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCAF2CB6F00F00E6D703 /* LicenseService.swift */; };
+		588BCCB22CB6F02E00E6D703 /* PaymentGatewayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCB12CB6F02E00E6D703 /* PaymentGatewayService.swift */; };
+		588BCCB52CB6F07E00E6D703 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCB42CB6F07E00E6D703 /* Constants.swift */; };
+		588BCCB72CB6F0C900E6D703 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCB62CB6F0C900E6D703 /* DateFormatter.swift */; };
+		588BCCB92CB6F0F500E6D703 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588BCCB82CB6F0F500E6D703 /* UIColorExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		588BCC6E2CB6EB2500E6D703 /* LicencasBeiraiOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LicencasBeiraiOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		588BCC712CB6EB2500E6D703 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		588BCC732CB6EB2500E6D703 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		588BCC762CB6EB2500E6D703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		588BCC782CB6EB2600E6D703 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		588BCC7B2CB6EB2600E6D703 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		588BCC7D2CB6EB2600E6D703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588BCC842CB6EBA200E6D703 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		588BCC862CB6EBC600E6D703 /* License.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = License.swift; sourceTree = "<group>"; };
+		588BCC8A2CB6EC0A00E6D703 /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		588BCC8E2CB6ECDD00E6D703 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		588BCC902CB6ED1400E6D703 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		588BCC932CB6EDA300E6D703 /* LicenseGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseGenerationView.swift; sourceTree = "<group>"; };
+		588BCC952CB6EDEF00E6D703 /* LicenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseDetailView.swift; sourceTree = "<group>"; };
+		588BCC972CB6EE1900E6D703 /* LicenseHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseHistoryView.swift; sourceTree = "<group>"; };
+		588BCC9A2CB6EE5200E6D703 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		588BCC9C2CB6EE7100E6D703 /* PaymentConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationView.swift; sourceTree = "<group>"; };
+		588BCC9F2CB6EEAC00E6D703 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		588BCCA12CB6EEE300E6D703 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		588BCCA42CB6EF2B00E6D703 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		588BCCA62CB6EF4D00E6D703 /* LicenseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseController.swift; sourceTree = "<group>"; };
+		588BCCA82CB6EF7700E6D703 /* PaymentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentController.swift; sourceTree = "<group>"; };
+		588BCCAB2CB6EFC600E6D703 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		588BCCAD2CB6EFE900E6D703 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		588BCCAF2CB6F00F00E6D703 /* LicenseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseService.swift; sourceTree = "<group>"; };
+		588BCCB12CB6F02E00E6D703 /* PaymentGatewayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentGatewayService.swift; sourceTree = "<group>"; };
+		588BCCB42CB6F07E00E6D703 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		588BCCB62CB6F0C900E6D703 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		588BCCB82CB6F0F500E6D703 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		588BCC6B2CB6EB2500E6D703 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		588BCC652CB6EB2500E6D703 = {
+			isa = PBXGroup;
+			children = (
+				588BCC702CB6EB2500E6D703 /* LicencasBeiraiOSApp */,
+				588BCC6F2CB6EB2500E6D703 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		588BCC6F2CB6EB2500E6D703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				588BCC6E2CB6EB2500E6D703 /* LicencasBeiraiOSApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		588BCC702CB6EB2500E6D703 /* LicencasBeiraiOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				588BCCB32CB6F04D00E6D703 /* Utilities */,
+				588BCCAA2CB6EF9B00E6D703 /* Services */,
+				588BCCA32CB6EEFC00E6D703 /* Controllers */,
+				588BCC8C2CB6EC2300E6D703 /* Views */,
+				588BCC832CB6EB7200E6D703 /* Models */,
+				588BCC712CB6EB2500E6D703 /* AppDelegate.swift */,
+				588BCC732CB6EB2500E6D703 /* ViewController.swift */,
+				588BCC752CB6EB2500E6D703 /* Main.storyboard */,
+				588BCC782CB6EB2600E6D703 /* Assets.xcassets */,
+				588BCC7A2CB6EB2600E6D703 /* LaunchScreen.storyboard */,
+				588BCC7D2CB6EB2600E6D703 /* Info.plist */,
+			);
+			path = LicencasBeiraiOSApp;
+			sourceTree = "<group>";
+		};
+		588BCC832CB6EB7200E6D703 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				588BCC842CB6EBA200E6D703 /* User.swift */,
+				588BCC862CB6EBC600E6D703 /* License.swift */,
+				588BCC8A2CB6EC0A00E6D703 /* Payment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		588BCC8C2CB6EC2300E6D703 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				588BCC9E2CB6EE8900E6D703 /* Common */,
+				588BCC992CB6EE3000E6D703 /* Payments */,
+				588BCC922CB6ED3E00E6D703 /* Licenses */,
+				588BCC8D2CB6EC8F00E6D703 /* Authentication */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		588BCC8D2CB6EC8F00E6D703 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				588BCC8E2CB6ECDD00E6D703 /* LoginView.swift */,
+				588BCC902CB6ED1400E6D703 /* RegisterView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		588BCC922CB6ED3E00E6D703 /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				588BCC932CB6EDA300E6D703 /* LicenseGenerationView.swift */,
+				588BCC952CB6EDEF00E6D703 /* LicenseDetailView.swift */,
+				588BCC972CB6EE1900E6D703 /* LicenseHistoryView.swift */,
+			);
+			path = Licenses;
+			sourceTree = "<group>";
+		};
+		588BCC992CB6EE3000E6D703 /* Payments */ = {
+			isa = PBXGroup;
+			children = (
+				588BCC9A2CB6EE5200E6D703 /* PaymentView.swift */,
+				588BCC9C2CB6EE7100E6D703 /* PaymentConfirmationView.swift */,
+			);
+			path = Payments;
+			sourceTree = "<group>";
+		};
+		588BCC9E2CB6EE8900E6D703 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				588BCC9F2CB6EEAC00E6D703 /* CustomButton.swift */,
+				588BCCA12CB6EEE300E6D703 /* CustomTextField.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		588BCCA32CB6EEFC00E6D703 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				588BCCA42CB6EF2B00E6D703 /* AuthenticationController.swift */,
+				588BCCA62CB6EF4D00E6D703 /* LicenseController.swift */,
+				588BCCA82CB6EF7700E6D703 /* PaymentController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		588BCCAA2CB6EF9B00E6D703 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				588BCCAB2CB6EFC600E6D703 /* NetworkService.swift */,
+				588BCCAD2CB6EFE900E6D703 /* AuthenticationService.swift */,
+				588BCCAF2CB6F00F00E6D703 /* LicenseService.swift */,
+				588BCCB12CB6F02E00E6D703 /* PaymentGatewayService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		588BCCB32CB6F04D00E6D703 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				588BCCB42CB6F07E00E6D703 /* Constants.swift */,
+				588BCCB62CB6F0C900E6D703 /* DateFormatter.swift */,
+				588BCCB82CB6F0F500E6D703 /* UIColorExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588BCC6D2CB6EB2500E6D703 /* LicencasBeiraiOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 588BCC802CB6EB2600E6D703 /* Build configuration list for PBXNativeTarget "LicencasBeiraiOSApp" */;
+			buildPhases = (
+				588BCC6A2CB6EB2500E6D703 /* Sources */,
+				588BCC6B2CB6EB2500E6D703 /* Frameworks */,
+				588BCC6C2CB6EB2500E6D703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LicencasBeiraiOSApp;
+			productName = LicencasBeiraiOSApp;
+			productReference = 588BCC6E2CB6EB2500E6D703 /* LicencasBeiraiOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		588BCC662CB6EB2500E6D703 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Joel De Ariovaldo";
+				TargetAttributes = {
+					588BCC6D2CB6EB2500E6D703 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 588BCC692CB6EB2500E6D703 /* Build configuration list for PBXProject "LicencasBeiraiOSApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 588BCC652CB6EB2500E6D703;
+			productRefGroup = 588BCC6F2CB6EB2500E6D703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588BCC6D2CB6EB2500E6D703 /* LicencasBeiraiOSApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		588BCC6C2CB6EB2500E6D703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588BCC7C2CB6EB2600E6D703 /* LaunchScreen.storyboard in Resources */,
+				588BCC792CB6EB2600E6D703 /* Assets.xcassets in Resources */,
+				588BCC772CB6EB2500E6D703 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		588BCC6A2CB6EB2500E6D703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588BCCA22CB6EEE300E6D703 /* CustomTextField.swift in Sources */,
+				588BCCA02CB6EEAC00E6D703 /* CustomButton.swift in Sources */,
+				588BCCB52CB6F07E00E6D703 /* Constants.swift in Sources */,
+				588BCC942CB6EDA300E6D703 /* LicenseGenerationView.swift in Sources */,
+				588BCCA52CB6EF2B00E6D703 /* AuthenticationController.swift in Sources */,
+				588BCCAC2CB6EFC600E6D703 /* NetworkService.swift in Sources */,
+				588BCC9B2CB6EE5200E6D703 /* PaymentView.swift in Sources */,
+				588BCCB72CB6F0C900E6D703 /* DateFormatter.swift in Sources */,
+				588BCC8F2CB6ECDD00E6D703 /* LoginView.swift in Sources */,
+				588BCC742CB6EB2500E6D703 /* ViewController.swift in Sources */,
+				588BCC722CB6EB2500E6D703 /* AppDelegate.swift in Sources */,
+				588BCC912CB6ED1400E6D703 /* RegisterView.swift in Sources */,
+				588BCCA72CB6EF4D00E6D703 /* LicenseController.swift in Sources */,
+				588BCCB02CB6F00F00E6D703 /* LicenseService.swift in Sources */,
+				588BCC852CB6EBA200E6D703 /* User.swift in Sources */,
+				588BCCB92CB6F0F500E6D703 /* UIColorExtensions.swift in Sources */,
+				588BCC872CB6EBC600E6D703 /* License.swift in Sources */,
+				588BCC982CB6EE1900E6D703 /* LicenseHistoryView.swift in Sources */,
+				588BCC962CB6EDEF00E6D703 /* LicenseDetailView.swift in Sources */,
+				588BCCB22CB6F02E00E6D703 /* PaymentGatewayService.swift in Sources */,
+				588BCCAE2CB6EFE900E6D703 /* AuthenticationService.swift in Sources */,
+				588BCC9D2CB6EE7100E6D703 /* PaymentConfirmationView.swift in Sources */,
+				588BCC8B2CB6EC0A00E6D703 /* Payment.swift in Sources */,
+				588BCCA92CB6EF7700E6D703 /* PaymentController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		588BCC752CB6EB2500E6D703 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588BCC762CB6EB2500E6D703 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		588BCC7A2CB6EB2600E6D703 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				588BCC7B2CB6EB2600E6D703 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		588BCC7E2CB6EB2600E6D703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		588BCC7F2CB6EB2600E6D703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		588BCC812CB6EB2600E6D703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LicencasBeiraiOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeldeariovaldo.LicencasBeiraiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		588BCC822CB6EB2600E6D703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LicencasBeiraiOSApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.joeldeariovaldo.LicencasBeiraiOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		588BCC692CB6EB2500E6D703 /* Build configuration list for PBXProject "LicencasBeiraiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588BCC7E2CB6EB2600E6D703 /* Debug */,
+				588BCC7F2CB6EB2600E6D703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		588BCC802CB6EB2600E6D703 /* Build configuration list for PBXNativeTarget "LicencasBeiraiOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588BCC812CB6EB2600E6D703 /* Debug */,
+				588BCC822CB6EB2600E6D703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 588BCC662CB6EB2500E6D703 /* Project object */;
+}
