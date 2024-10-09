@@ -7,3 +7,22 @@
 //
 
 import Foundation
+import UIKit
+
+class CustomTextField: UITextField {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupTextField()
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setupTextField()
+    }
+    
+    private func setupTextField() {
+        borderStyle = .roundedRect
+        backgroundColor = .customGray
+    }
+}

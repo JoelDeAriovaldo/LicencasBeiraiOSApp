@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Constants {
+    static let baseURL = "https://api.licencasbeira.com"
+    static let timeoutInterval: TimeInterval = 60.0
+}

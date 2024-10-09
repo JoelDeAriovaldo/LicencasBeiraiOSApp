@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+extension DateFormatter {
+    static let licenseDateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        return formatter
+    }()
+}
