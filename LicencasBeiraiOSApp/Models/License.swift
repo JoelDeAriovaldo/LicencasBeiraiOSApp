@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+class License {
+    var id: String
+    var userId: String
+    var issueDate: Date
+    var expiryDate: Date
+    var details: String
+    
+    init(id: String, userId: String, issueDate: Date, expiryDate: Date, details: String) {
+        self.id = id
+        self.userId = userId
+        self.issueDate = issueDate
+        self.expiryDate = expiryDate
+        self.details = details
+    }
