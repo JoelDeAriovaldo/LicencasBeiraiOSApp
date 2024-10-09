@@ -7,3 +7,23 @@
 //
 
 import Foundation
+import UIKit
+
+class AuthenticationController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+        // Add logic to determine whether to show login or register view
+    }
+    
+    func showLoginView() {
+        let loginView = LoginView()
+        present(loginView, animated: true, completion: nil)
+    }
+    
+    func showRegisterView() {
+        let registerView = RegisterView()
+        present(registerView, animated: true, completion: nil)
+    }
+}

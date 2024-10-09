@@ -7,3 +7,15 @@
 //
 
 import Foundation
+class AuthenticationService {
+    
+    func login(email: String, password: String, completion: @escaping (Bool) -> Void) {
+        // Implement login logic here
+        completion(true)
+    }
+    
+    func register(name: String, email: String, password: String, completion: @escaping (Bool) -> Void) {
+        // Implement registration logic here
+        completion(true)
+    }
+}
