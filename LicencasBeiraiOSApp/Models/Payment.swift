@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+class Payment {
+    var id: String
+    var userId: String
+    var licenseId: String
+    var amount: Double
+    var date: Date
+    
+    init(id: String, userId: String, licenseId: String, amount: Double, date: Date) {
+        self.id = id
+        self.userId = userId
+        self.licenseId = licenseId
+        self.amount = amount
+        self.date = date
+    }
+}

@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class PaymentGatewayService {
+    
+    func processPayment(amount: Double, completion: @escaping (Bool) -> Void) {
+        // Implement payment processing logic here
+        completion(true)
+    }
+}
